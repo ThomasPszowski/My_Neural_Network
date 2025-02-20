@@ -1,9 +1,13 @@
-﻿  sdl_pixel.cpp
-F:\OneDrive - The Opole University of Technology\programy stare\Projekty VS\sdl_simulacja1\sdl_pixel.cpp(196,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-F:\OneDrive - The Opole University of Technology\programy stare\Projekty VS\sdl_simulacja1\sdl_pixel.cpp(197,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+﻿  main.cpp
+S:\GitHubReps\MyNeuralNetwork\main.cpp(64,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+S:\GitHubReps\MyNeuralNetwork\main.cpp(64,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+S:\GitHubReps\MyNeuralNetwork\main.cpp(99,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+S:\GitHubReps\MyNeuralNetwork\main.cpp(99,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
+S:\GitHubReps\MyNeuralNetwork\main.cpp(105,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+S:\GitHubReps\MyNeuralNetwork\main.cpp(105,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
   Generating code
-  2 of 8 functions (25.0%) were compiled, the rest were copied from previous compilation.
+  1 of 151 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  sdl_simulacja1.vcxproj -> F:\OneDrive - The Opole University of Technology\programy stare\Projekty VS\sdl_simulacja1\Release\sdl_simulacja1.exe
+  sdl_simulacja1.vcxproj -> S:\GitHubReps\MyNeuralNetwork\Release\sdl_simulacja1.exe

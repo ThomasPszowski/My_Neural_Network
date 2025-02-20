@@ -223,8 +223,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sdl_pixel.cpp" />
-    <ClCompile Include="relations.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="palettes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
