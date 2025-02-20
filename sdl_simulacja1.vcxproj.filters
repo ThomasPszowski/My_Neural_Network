@@ -19,7 +19,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="palettes.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
