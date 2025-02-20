@@ -1,11 +1,14 @@
-﻿  main.cpp
-S:\GitHubReps\MyNeuralNetwork\main.cpp(35,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
-S:\GitHubReps\MyNeuralNetwork\main.cpp(35,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
-S:\GitHubReps\MyNeuralNetwork\main.cpp(41,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
-S:\GitHubReps\MyNeuralNetwork\main.cpp(41,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (sdl_simulacja1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  discrete_plot_functions.cpp
+S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244: 'argument': conversion from '_Ty' to 'const unsigned int', possible loss of data
+S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244:         with
+S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244:         [
+S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244:         ]
+  palettes.h
   Generating code
-  1 of 168 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+  0 of 285 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  sdl_simulacja1.vcxproj -> S:\GitHubReps\MyNeuralNetwork\Release\sdl_simulacja1.exe
+  sdl_simulacja1.vcxproj -> S:\GitHubReps\MyNeuralNetwork\Release\MyNeuralNetwork.exe

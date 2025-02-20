@@ -32,6 +32,7 @@
     <ProjectGuid>{348809e5-8ee6-4a13-973a-ca40a5e2fc51}</ProjectGuid>
     <RootNamespace>sdl_simulacja1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MyNeuralNetwork</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -223,12 +224,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="functions.cpp" />
+    <ClCompile Include="continuous_plot_functions.cpp" />
+    <ClCompile Include="discrete_plot_functions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="palettes.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="functions.h" />
+    <ClInclude Include="continuous_plot_functions.h" />
+    <ClInclude Include="discrete_plot_functions.h" />
+    <ClInclude Include="example_data_points.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -5,16 +5,28 @@
 #include <algorithm>
 
 #include "palettes.h"
-#include "functions.h"
+#include "continuous_plot_functions.h"
+#include "discrete_plot_functions.h"
+#include "example_data_points.h"
+
 using namespace std;
 
 const int Width = 800, Height = 800;
 SDL_Rect rect;
+
 SDL_Renderer* renderer = NULL;
 vector<SDL_Color> chosenPalette;
 int palette_index = 3;
 bool key_1_pressed = false;
+float center_x = 0; float center_y = 0; float zoom = 1;
 
+
+
+void render() {
+    fillPixels(renderer, Height, Width, chosenPalette, center_x, center_y, zoom);
+	plotData(renderer, Height, Width, example_data, chosenPalette, center_x, center_y, zoom);
+    SDL_RenderPresent(renderer);
+}
 
 int main(int argc, char** argv) {
 
@@ -49,17 +61,47 @@ int main(int argc, char** argv) {
 
     bool is_running = true;
     SDL_Event ev;
-    fillPixels(renderer, Height, Width, chosenPalette);
-    SDL_RenderPresent(renderer);
+    render();
     while (is_running) {
         while (SDL_PollEvent(&ev) != 0) {
             if (ev.type == SDL_QUIT)
                 is_running = false;
-            if (ev.type == SDL_KEYDOWN) {
-                if (ev.key.keysym.sym == SDLK_SPACE) {
-                    // Obsługa przycisku SPACE
-                }
+			if (ev.type == SDL_MOUSEBUTTONDOWN) {
+				if (ev.button.button == SDL_BUTTON_LEFT) {
+					vector<float> coords = mapCoordinates(ev.button.x, ev.button.y, Height, Width, center_x, center_y, zoom);
+					center_x = coords[0];
+					center_y = coords[1];
+					render();
+				}
+			}
+            if (ev.type == SDL_MOUSEWHEEL) {
+                
+                float delta = ev.wheel.y / 3.0;
+				if (ev.wheel.y < 0) {
+                    delta = -delta;
+					zoom *= 1 + delta;
+					render();
+				}
+				else if (ev.wheel.y > 0) {
+					zoom /= 1 + delta;
+					render();
+				}
+            }
+            if (ev.key.keysym.sym == SDLK_DOWN) {
+                center_y -= 0.1;
+            }
+            if (ev.key.keysym.sym == SDLK_UP) {
+                center_y += 0.1;
+            }
+            if (ev.key.keysym.sym == SDLK_LEFT) {
+                center_x -= 0.1;
+            }
+            if (ev.key.keysym.sym == SDLK_RIGHT) {
+                center_x += 0.1;
+            }
 
+            if (ev.type == SDL_KEYDOWN) {
+                
                 if (ev.key.keysym.sym == SDLK_1 && !key_1_pressed) {
                     key_1_pressed = true;
                     palette_index++;
@@ -85,9 +127,9 @@ int main(int argc, char** argv) {
                         chosenPalette = createCoolPalette();
                         break;
                     }
-                    fillPixels(renderer, Height, Width, chosenPalette);
-                    SDL_RenderPresent(renderer);
+                    
                 }
+                render();
             }
             else if (ev.type == SDL_KEYUP) {
                 if (ev.key.keysym.sym == SDLK_1) {

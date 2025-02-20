@@ -21,7 +21,8 @@ inline std::vector<SDL_Color> createRGBPalette() {
 		{255, 0, 0, 255},    // Red
 		{0, 255, 0, 255},    // Green
 		{0, 0, 255, 255},    // Blue
-		{255, 255, 255, 255},  // Yellow
+        {255, 0, 255, 255},
+		{255, 255, 255, 255},  
     };
 }
 
