@@ -1,0 +1,3 @@
+G:\programowanie vs\sdl_simulacja1\Release\sdl_simulacja1.exe
+C:\Users\tolek\OneDrive - The Opole University of Technology\Projekty VS\sdl_simulacja1\Release\sdl_simulacja1.exe
+F:\OneDrive - The Opole University of Technology\programy stare\Projekty VS\sdl_simulacja1\Release\sdl_simulacja1.exe

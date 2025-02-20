@@ -1,0 +1,9 @@
+﻿  sdl_pixel.cpp
+F:\OneDrive - The Opole University of Technology\programy stare\Projekty VS\sdl_simulacja1\sdl_pixel.cpp(196,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\OneDrive - The Opole University of Technology\programy stare\Projekty VS\sdl_simulacja1\sdl_pixel.cpp(197,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  2 of 8 functions (25.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  sdl_simulacja1.vcxproj -> F:\OneDrive - The Opole University of Technology\programy stare\Projekty VS\sdl_simulacja1\Release\sdl_simulacja1.exe

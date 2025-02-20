@@ -1,0 +1,7 @@
+﻿  particle.cpp
+  sdl_pixel.cpp
+G:\programowanie vs\sdl_simulacja1\sdl_pixel.cpp(113,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+G:\programowanie vs\sdl_simulacja1\sdl_pixel.cpp(114,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  relations.cpp
+  Generating Code...
+  sdl_simulacja1.vcxproj -> G:\programowanie vs\sdl_simulacja1\Debug\sdl_simulacja1.exe
