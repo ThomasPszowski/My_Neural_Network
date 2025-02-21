@@ -1,13 +1,472 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (sdl_simulacja1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  discrete_plot_functions.cpp
-S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244: 'argument': conversion from '_Ty' to 'const unsigned int', possible loss of data
-S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244:         with
-S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244:         [
-S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244:             _Ty=float
-S:\GitHubReps\MyNeuralNetwork\discrete_plot_functions.cpp(30,47): warning C4244:         ]
-  palettes.h
+  main.cpp
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,11): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,11): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,11): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,11): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,11): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,21): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,21): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,21): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,21): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,21): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,26): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,26): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,26): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,26): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,26): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,36): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,36): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,36): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,36): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,36): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,51): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,51): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,51): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,51): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,51): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,56): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,56): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,56): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,56): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,56): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,66): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,66): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,66): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,66): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,66): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,71): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,71): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,71): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,71): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(9,71): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,6): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,6): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,6): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,6): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,6): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,23): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,23): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,23): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,23): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,23): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,29): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,29): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,29): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,29): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,29): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,40): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,40): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,40): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,40): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,40): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,45): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,45): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,45): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,45): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,45): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,62): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,62): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,62): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,62): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,62): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,72): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,72): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,72): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,72): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,72): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,77): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,77): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,77): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,77): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(10,77): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,6): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,6): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,6): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,6): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,6): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,11): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,11): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,11): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,11): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,11): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,21): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,21): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,21): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,21): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,21): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,26): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,26): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,26): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,26): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,26): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,37): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,37): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,37): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,37): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,37): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,58): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,58): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,58): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,58): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,58): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,68): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,68): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,68): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,68): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,68): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,73): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,73): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,73): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,73): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(13,73): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,6): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,6): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,6): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,6): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,6): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,22): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,22): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,22): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,22): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,22): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,28): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,28): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,28): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,28): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,28): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,39): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,39): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,39): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,39): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,39): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,44): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,44): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,44): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,44): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,44): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,59): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,59): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,59): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,59): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,59): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,70): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,70): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,70): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,70): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,70): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,76): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,76): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,76): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,76): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(14,76): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,6): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,6): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,6): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,6): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,6): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,11): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,11): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,11): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,11): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,11): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,21): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,21): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,21): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,21): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,21): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,26): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,26): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,26): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,26): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,26): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,36): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,36): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,36): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,36): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,36): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,41): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,41): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,41): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,41): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,41): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,57): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,57): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,57): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,57): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,57): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,68): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,68): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,68): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,68): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(17,68): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,6): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,6): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,6): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,6): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,6): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,12): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,12): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,12): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,12): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,12): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,28): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,28): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,28): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,28): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,28): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,38): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,38): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,38): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,38): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,38): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,44): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,44): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,44): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,44): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,44): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,55): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,55): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,55): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,55): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,55): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,71): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,71): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,71): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,71): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,71): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,76): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,76): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,76): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,76): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(18,76): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,6): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,6): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,6): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,6): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,6): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,11): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,11): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,11): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,11): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,11): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,21): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,21): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,21): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,21): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,21): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,26): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,26): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,26): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,26): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,26): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,36): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,36): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,36): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,36): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,36): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,41): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,41): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,41): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,41): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,41): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,51): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,51): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,51): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,51): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,51): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,56): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,56): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,56): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,56): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,56): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,66): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,66): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,66): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,66): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,66): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,71): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,71): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,71): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,71): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(21,71): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,6): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,6): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,6): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,6): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,6): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,21): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,21): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,21): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,21): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,21): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,26): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,26): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,26): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,26): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,26): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,43): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,43): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,43): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,43): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,43): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,54): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,54): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,54): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,54): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,54): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,71): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,71): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,71): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,71): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,71): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,76): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,76): warning C4305:         with
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,76): warning C4305:         [
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,76): warning C4305:             _Ty=float
+S:\GitHubReps\MyNeuralNetwork\example_data_points.h(22,76): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+S:\GitHubReps\MyNeuralNetwork\main.cpp(44,23): warning C4018: '<': signed/unsigned mismatch
+S:\GitHubReps\MyNeuralNetwork\main.cpp(85,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+S:\GitHubReps\MyNeuralNetwork\main.cpp(85,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
+S:\GitHubReps\MyNeuralNetwork\main.cpp(91,22): warning C4566: character represented by universal-character-name '\u017C' cannot be represented in the current code page (1252)
+S:\GitHubReps\MyNeuralNetwork\main.cpp(91,22): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
+S:\GitHubReps\MyNeuralNetwork\main.cpp(119,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+S:\GitHubReps\MyNeuralNetwork\main.cpp(129,32): warning C4305: '-=': truncation from 'double' to 'float'
+S:\GitHubReps\MyNeuralNetwork\main.cpp(132,32): warning C4305: '+=': truncation from 'double' to 'float'
+S:\GitHubReps\MyNeuralNetwork\main.cpp(135,32): warning C4305: '-=': truncation from 'double' to 'float'
+S:\GitHubReps\MyNeuralNetwork\main.cpp(138,32): warning C4305: '+=': truncation from 'double' to 'float'
   Generating code
-  0 of 285 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  10 of 604 functions ( 1.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code

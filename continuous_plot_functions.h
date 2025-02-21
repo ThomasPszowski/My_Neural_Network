@@ -22,7 +22,7 @@ std::vector<float> mapCoordinates(int x, int y, int window_height, int window_wi
 std::vector<int> inverseMapCoordinates(float mapped_x, float mapped_y, int window_height, int window_width,
     float center_x = 0, float center_y = 0, float zoom = 1);
 
-SDL_Color getColorForPixel(int x, int y, int Height, int Width, std::vector<SDL_Color>& palette, float center_x = 0, float center_y = 0, float zoom = 1);
+SDL_Color getColorForPixel(int x, int y, int Height, int Width, std::vector<SDL_Color>& palette, float center_x = 0, float center_y = 0, float zoom = 1, std::vector<float>(*func)(float, float) = f);
 
-void fillPixels(SDL_Renderer* renderer, int Height, int Width, std::vector<SDL_Color>& palette, float center_x = 0, float center_y = 0, float zoom = 1);
+void fillPixels(SDL_Renderer* renderer, int Height, int Width, std::vector<SDL_Color>& palette, float center_x = 0, float center_y = 0, float zoom = 1, std::vector<float>(*func)(float, float) = f);
 

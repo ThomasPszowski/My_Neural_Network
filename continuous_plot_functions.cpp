@@ -44,7 +44,7 @@ SDL_Color blendColors(const SDL_Color& color1, const SDL_Color& color2, T weight
 
 std::vector<float> f(float x, float y) {
     std::vector<float> result;
-    result.push_back(x * x + y * y - 1);
+    result.push_back(-x * x - y * y + 1);
     result.push_back(x - y);
     result.push_back(sin(x * 3) + y);
     result.push_back(-y*y*y + y*y -0.4 - x);
@@ -76,9 +76,13 @@ std::vector<int> inverseMapCoordinates(float mapped_x, float mapped_y, int windo
 
 
 // Funkcja zwracająca kolor na podstawie współrzędnych x, y
-SDL_Color getColorForPixel(int x, int y, int Height, int Width, std::vector<SDL_Color>& palette, float center_x = 0, float center_y = 0, float zoom = 1) {
+SDL_Color getColorForPixel(int x, int y, int Height, int Width, 
+    std::vector<SDL_Color>& palette, 
+    float center_x = 0, float center_y = 0, float zoom = 1, 
+    std::vector<float> (*func)(float, float) = f) 
+{
     std::vector<float> coords = mapCoordinates(x, y, Height, Width, center_x, center_y, zoom);
-    std::vector<float> weights = f(coords[0], coords[1]);
+    std::vector<float> weights = func(coords[0], coords[1]);
     for (float& w : weights) {
         if (w < 0) w = 0;
         else w = w;
@@ -88,10 +92,13 @@ SDL_Color getColorForPixel(int x, int y, int Height, int Width, std::vector<SDL_
 }
 
 // Funkcja wypełniająca każdy piksel kolorem zwróconym przez getColorForPixel
-void fillPixels(SDL_Renderer* renderer, int Height, int Width, std::vector<SDL_Color>& palette, float center_x = 0, float center_y = 0, float zoom = 1) {
+void fillPixels(SDL_Renderer* renderer, int Height, int Width, 
+    std::vector<SDL_Color>& palette, float center_x = 0, float center_y = 0, float zoom = 1,
+    std::vector<float>(*func)(float, float) = f) 
+{
     for (int y = 0; y < Height; ++y) {
         for (int x = 0; x < Width; ++x) {
-            SDL_Color color = getColorForPixel(x, y, Height, Width, palette, center_x, center_y, zoom);
+            SDL_Color color = getColorForPixel(x, y, Height, Width, palette, center_x, center_y, zoom, func);
             SDL_SetRenderDrawColor(renderer, color.r, color.g, color.b, color.a);
             SDL_RenderDrawPoint(renderer, x, y);
         }

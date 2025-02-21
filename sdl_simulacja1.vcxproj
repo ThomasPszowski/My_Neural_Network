@@ -227,12 +227,14 @@
     <ClCompile Include="continuous_plot_functions.cpp" />
     <ClCompile Include="discrete_plot_functions.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NeuralNetwork.cpp" />
     <ClCompile Include="palettes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="continuous_plot_functions.h" />
     <ClInclude Include="discrete_plot_functions.h" />
     <ClInclude Include="example_data_points.h" />
+    <ClInclude Include="NeuralNetwork.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
